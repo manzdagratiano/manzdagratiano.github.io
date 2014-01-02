@@ -1,0 +1,27 @@
+name:                   manzdagratiano's Blackwater Park
+author:                 Manjul Apratim
+source:                 .
+destination:            ./_site
+plugins:                ./_plugins
+layouts:                ./_layouts
+include:                ['.htaccess']
+exclude:                []
+keep_files:             ['.git']
+gems:                   []
+
+pygments:               true
+
+relative_permalinks:    true
+permalink:              date
+paginate_path:          'page:num'
+
+markdown:               redcarpet
+markdown_ext:           markdown,mkd,mkdn,md
+textile_ext:            textile
+
+excerpt_separator:      "\n\n"
+
+safe:                   false
+baseurl:                /
+url:                    "https://manzdagratiano.github.io"
+lsi:                    false
