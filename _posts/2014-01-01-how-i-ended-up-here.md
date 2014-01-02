@@ -26,8 +26,9 @@ categories: github jekyll blog
 $ export PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
 $ # Insert PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH" into .bashrc for eternity
 $ gem install jekyll
-$ mkdir blog
+$ mkdir blog && cd blog
 $ git clone https://github.com/manzdagratiano/manzdagratiano.github.io
+$ cd manzdagratiano.github.io
 $ git checkout -b blog
 $ jekyll new blog
 {% endhighlight %}
